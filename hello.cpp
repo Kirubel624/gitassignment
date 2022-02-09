@@ -35,4 +35,27 @@ void diff()
      diff=n1-n2;
      cout<<"\ndifference is:"<<diff<<endl<<endl;
      }
+void power()
+     {
+     long int p;
+     int res=1,n;
+     cout<<"enter number:";
+     cin>>n;
+     cout<<"\nenter power:";
+     cin>>p;
+     for(int i=1;i<=p;i++)
+     {
+      res=n*res;
+     }
+      cout<<n<<"\n power "<<p<<" is :"<<res<<endl;
+     }
 
+void sq()
+     {
+     float s;
+     int n;
+     cout<<"enter number to find its square root:";
+     cin>>n;
+     s=sqrt(n);
+     cout<<"\nsquare root of "<<n<<" is :"<<s<<endl;
+     }
